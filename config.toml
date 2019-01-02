@@ -1,0 +1,5 @@
+baseURL = "https://itunesrichpresence.bootleg.technology"
+languageCode = "en-us"
+title = "iTunesRichPresence"
+
+theme = "vex-hugo"
