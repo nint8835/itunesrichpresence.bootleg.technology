@@ -1,20 +1,22 @@
 baseURL = "https://itunesrichpresence.bootleg.technology"
 languageCode = "en-us"
 title = "iTunesRichPresence"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+disableKinds=["RSS"]
+googleAnalytics = "UA-131796823-1"
 
 theme = "vex-hugo"
 
 [params]
-  description = ""
+  description = "Easily integrate iTunes now playing with Discord Rich Presence"
+  images = ["images/discord_popout.png"]
 
   # Put your custom stylesheets and scripts
   custom_stylesheets = []
   custom_scripts = ["scripts/redirect.js"]
 
   # Additional meta
-  [[params.meta]]
-    name = ""
-    description = ""
 
   # Navigation bar informations
   [params.navbar]
