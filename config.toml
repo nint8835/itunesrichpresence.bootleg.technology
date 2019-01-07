@@ -9,7 +9,7 @@ theme = "vex-hugo"
 
   # Put your custom stylesheets and scripts
   custom_stylesheets = []
-  custom_scripts = []
+  custom_scripts = ["scripts/redirect.js"]
 
   # Additional meta
   [[params.meta]]
